@@ -1,0 +1,68 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+  
+  .bloc {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+    background-color: rgb(125, 108, 202);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+  
+  .titre_1 {
+      text-align: center;
+  }
+  
+  .trav {
+      background-color: rgb(125, 108, 202);
+      border: 2px solid rgb(200,200,200);
+      padding: 1em;
+  }
+  
+  .leg {
+      background-color: rgb(231, 230, 235);
+      border: 2px solid rgb(200,200,200);
+      padding: 1em;
+  }
+  
+  .lien {
+      color: violet;
+  }
+  
+  a:link 
+  { 
+   text-decoration:none; 
+  }
+  
+  .end_page {
+      background-color: wheat;
+      padding: 1em;
+      display: flex;
+      justify-content: space-around;
+  }
